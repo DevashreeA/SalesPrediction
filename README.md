@@ -1,128 +1,97 @@
 # Sales Prediction & Data Visualization - v2
 
-📊 Data Analysis Dashboard for Sales Prediction
+📊 Sales Analysis & Prediction Dashboard
 
-An interactive Sales Data Analysis & Prediction Dashboard built using Python, Machine Learning, and Power BI.
-This project helps businesses analyze historical sales patterns, visualize key insights, and predict future sales for better decision-making.
+A data-driven analytics platform that helps businesses visualize sales trends and predict future performance using Machine Learning.
+Built with Python, scikit-learn, Power BI, and Pandas for deep insights into product performance, seasonal patterns, KPIs, and sales forecasting.
 
-🚀 Project Overview
-
-Businesses generate huge amounts of sales data but often lack tools to interpret it effectively. Traditional spreadsheet-based methods only provide static reports and do not support forecasting.
-This project solves that gap by combining:
-
-Interactive Visual Dashboards
-
-Machine Learning–based Sales Forecasting
-
-Real-time Sales Analysis
-
-The dashboard provides insights into:
-
-Best-selling products
-
-Seasonal/Monthly sales trends
-
-Performance across regions or categories
-
-Future sales predictions using ML models
-
-🎯 Objectives
-
-Build an interactive and user-friendly dashboard for sales analysis.
-
-Visualize real-time trends, KPIs, and patterns in sales data.
-
-Implement machine learning models (Linear Regression, Random Forest) for accurate forecasting.
-
-Provide a unified platform combining visualization + prediction.
-
-🧩 Scope of the Project
-
-Import and process structured historical sales data (CSV/Excel).
-
-Perform data cleaning, preprocessing, and pattern discovery.
-
-Develop predictive ML models for estimating future sales.
-
-Create a Power BI dashboard with drill-down reports.
-
-Integrate ML outputs with Power BI for seamless analytics.
-
-Deploy the system on local environment.
-
-🛠️ Technology Stack
-Programming & Analysis
+🛠️ Tech Stack
+Backend / ML Pipeline
 
 Python
 
-Libraries: NumPy, Pandas, Matplotlib, Seaborn
+Pandas, NumPy
 
-Machine Learning: scikit-learn
+Matplotlib, Seaborn
 
-Dashboard & Visualization
+scikit-learn (Linear Regression, Random Forest)
 
-Power BI
+Dashboard
+
+Power BI (Interactive Visualization)
 
 Data Storage
 
-CSV / Excel datasets
+CSV / Excel Datasets
 
-Deployment
+🗂️ Project Structure
+├── data/                 # Raw and cleaned sales datasets (CSV/Excel)
+├── notebooks/            # EDA, preprocessing, and ML model experiments
+├── src/
+│   ├── preprocessing/    # Data cleaning & feature engineering scripts
+│   ├── models/           # ML model training & prediction modules
+│   ├── utils/            # Helper functions
+│   └── pipeline.py       # Complete ML pipeline (train + predict)
+├── dashboard/            # Power BI dashboard files (.pbix)
+└── README.md             # (You are here)
 
-Local server environment / Desktop hosting
+⚡ Quick Start
+1. Clone the repository
+git clone https://github.com/your-username/sales-analysis-dashboard.git
+cd sales-analysis-dashboard
 
-🔍 System Workflow
+2. Install dependencies
+pip install -r requirements.txt
 
-Data Collection
+3. Run the preprocessing & model pipeline
+python src/pipeline.py
+4. Open the Power BI Dashboard
 
-Data Preprocessing
+Load the .pbix file from the dashboard/ folder to view all visualizations, KPIs, and predictions.
 
-Exploratory Data Analysis (EDA)
+📈 Key Features
 
-Machine Learning Model Building
+📊 Interactive Sales Dashboard (Product, Region, Time-based filters)
 
-Dashboard Development (Power BI)
+🤖 Machine Learning Sales Forecasting
 
-Model Integration
+🧹 Automated Data Cleaning & Preprocessing
 
-Testing & Validation
+🔍 Exploratory Data Analysis (EDA)
 
-Deployment
+📆 Seasonal Trend & Pattern Detection
 
-🧠 Machine Learning Models Used
+🔧 Drill-down Visualization in Power BI
 
-Linear Regression – baseline prediction
+📉 Monthly, Yearly, Category-wise Insights
 
-Random Forest Regressor – improved accuracy
+🧠 Machine Learning Models
 
-Evaluation metrics include MAE, RMSE, and R² Score.
+Linear Regression – Baseline sales prediction
 
-📈 Dashboard Features
+Random Forest Regressor – High accuracy forecasting
 
-Dynamic charts for monthly/annual trends
+Evaluation Metrics: MAE, MSE, RMSE, R²
 
-Product-wise and region-wise sales KPIs
+🧪 Workflow Overview
+Sales Data → Cleaning → EDA → Model Training → Predictions → Power BI Dashboard
 
-Forecast graphs for future sales
+🎯 Problem Statement
 
-Drill-down filters for category, date, region, product
+Businesses generate large volumes of data but lack tools for real-time insights or future forecasting.
+Traditional reports provide only history—not predictive intelligence.
+This dashboard solves that gap by merging ML-based forecasting + interactive analytics in one platform.
 
-Easy export of insights
+🎯 Objectives
 
-🏗️ System Architecture
-Sales Data → Preprocessing → EDA → ML Model → Predictions → Power BI Dashboard
+Build an interactive dashboard for analyzing business sales.
 
-📌 Problem Addressed
+Predict future sales using machine learning models.
 
-Most existing tools either show past sales OR predict future sales — but not both in a single integrated platform.
-Businesses need real-time insights + accurate forecasting for planning inventory, staffing, and budget.
+Provide actionable KPIs for decision-making.
 
-This project delivers that unified solution.
+Enable product-wise & region-wise performance comparison.
 
-📚 References
+📌 Conclusion
 
-"Sales Analysis and Prediction Dashboard Using Power BI" – Monika Raje, Priyanshi Jain, Vikrant Chole
-
-"Data Analytics Using Power BI Visualization Tool" – Monal D. Jadhav, Ashlesha B. Shelar
-
-"Using Dashboards in Business Analysis" – Ioana Bradea, Diana Sabău-Popa, Marcel Ioan Boloș
+This project delivers a powerful analytics platform combining machine learning, visualization, and real-time insights, enabling businesses to take data-driven decisions with confidence.
