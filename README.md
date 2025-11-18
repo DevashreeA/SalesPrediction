@@ -9,19 +9,12 @@ Built with Python, scikit-learn, Power BI, and Pandas for deep insights into pro
 Backend / ML Pipeline
 
 Python
-
 Pandas, NumPy
-
 Matplotlib, Seaborn
-
 scikit-learn (Linear Regression, Random Forest)
-
 Dashboard
-
 Power BI (Interactive Visualization)
-
 Data Storage
-
 CSV / Excel Datasets
 
 🗂️ Project Structure
