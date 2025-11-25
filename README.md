@@ -88,3 +88,5 @@ Enable product-wise & region-wise performance comparison.
 📌 Conclusion
 
 This project delivers a powerful analytics platform combining machine learning, visualization, and real-time insights, enabling businesses to take data-driven decisions with confidence.
+
+Final Year Project
